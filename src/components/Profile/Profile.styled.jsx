@@ -1,15 +1,13 @@
 import styled from "@emotion/styled";
 
 export const ProfileCard = styled.div`
-/* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; */
 margin-right: auto;
 margin-left: auto;
 margin-top: 40px;
 width: 400px;
 height: 440px;
+
+background-color: #fff;
     border-radius: 6px;
     -webkit-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 3px 3px 14px 0px rgba(0,0,0,0.75);
@@ -24,12 +22,11 @@ align-items: center;
 `;
 
 export const Avatar = styled.img`
-/* padding-top: 5px; */
-margin: 20px;
+    margin: 20px;
 
-width: 150px;
-border-radius: 50%;
-background-color: teal;
+    width: 150px;
+    border-radius: 50%;
+    background-color: goldenrod;
 
 `; 
 
@@ -67,6 +64,7 @@ export const ProfileStatsItem = styled.li`
     width: calc(100% / 3);
     padding: 29px 0;
     border-top: 1px solid #A5A7A9;
+    
     
 
     :not(:last-child) {
