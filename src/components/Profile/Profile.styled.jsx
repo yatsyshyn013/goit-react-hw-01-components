@@ -28,8 +28,6 @@ padding: 20px;
 
 width: 400px;
 
-
-
 `;
 
 export const AvatarDiv = styled.div`
